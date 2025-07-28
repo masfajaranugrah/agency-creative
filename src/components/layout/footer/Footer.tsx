@@ -172,22 +172,24 @@ const currentYear = new Date().getFullYear();
           <div className="col-12 col-lg-6">
             <div className="text-center text-lg-end">
              <h2 className="fs-3">
-                  <Link
-                    href="mailto:cs@devdream.my.id"
-                    className="folks-text animated-text"
-                    ref={animatedTextRef}
-                  >
-                    cs@devdream.my.id
-                    {animatedTextContent.split("").map((char, index) => (
-                      <span
-                        aria-hidden="true"
-                        className="animated-char"
-                        key={index}
-                      >
-                        {char}
-                      </span>
-                    ))}
-                  </Link>
+           <Link
+  href="mailto:cs@devdream.my.id"
+  className="folks-text animated-text"
+  ref={animatedTextRef}
+  aria-label="Kirim email ke cs@devdream.my.id"
+>
+   <span className="sr-only">cs@devdream.my.id</span>
+  {animatedTextContent.split("").map((char, index) => (
+    <span
+      aria-hidden="true"
+      className="animated-char"
+      key={index}
+    >
+      {char}
+    </span>
+  ))}
+</Link>
+
                 </h2>
             </div>
           </div>
