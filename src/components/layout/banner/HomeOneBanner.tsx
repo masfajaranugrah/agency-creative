@@ -54,7 +54,7 @@ const HomeOneBanner = () => {
               <div className="banner__content">
                 <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
                   We are
-                  <span className="text-stroke">Production</span>
+                  <span className="text-stroke"> Production</span>
                   <span className="interval">
                     <i className="icon-arrow-top-right"></i> House
                   </span>
@@ -67,11 +67,11 @@ const HomeOneBanner = () => {
                   </p>
                   <div className="cta section__content-cta">
                     <div className="single">
-                      <h5 className="fw-7">12+</h5>
+                      <h2 className="fw-7">12+</h2>
                       <p className="fw-5">years of experience</p>
                     </div>
                     <div className="single">
-                      <h5 className="fw-7">25k</h5>
+                      <h2 className="fw-7">25k</h2>
                       <p className="fw-5">completed projects</p>
                     </div>
                   </div>

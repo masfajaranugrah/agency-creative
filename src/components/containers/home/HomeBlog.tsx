@@ -28,11 +28,11 @@ const HomeBlog = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                <h4>
+                <h3>
                   <Link href="blog-single">
                     A Simple Social Media Marketing Checklist
                   </Link>
-                </h4>
+                </h3>
                 <div className="blog__single-meta">
                   <Link href="blog" className="sub-title">
                     creative
@@ -51,11 +51,11 @@ const HomeBlog = () => {
                 </Link>
               </div>
               <div className="blog__single-content">
-                <h4>
+                <h3>
                   <Link href="blog-single">
                     Transforming Challenges into Opportunities
                   </Link>
-                </h4>
+                </h3>
                 <div className="blog__single-meta">
                   <Link href="blog" className="sub-title">
                     creative

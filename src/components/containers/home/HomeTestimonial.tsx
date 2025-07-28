@@ -158,16 +158,16 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h3>
                               posuere luctus orci. Donec vitae mattis quam,
                               vitae tempor arcu. Aenean non odio porttitor,
                               convallis erat sit amet, facilisis velit. Nulla
                               ornare convallis malesuada. Phasellus molestie,
                               ipsum ac fringilla.
-                            </h4>
+                            </h3>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
+                            <h4>Daniel Smith</h4>
                             <p>Senior engineer</p>
                           </div>
                         </div>
@@ -202,16 +202,16 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h3>
                               posuere luctus orci. Donec vitae mattis quam,
                               vitae tempor arcu. Aenean non odio porttitor,
                               convallis erat sit amet, facilisis velit. Nulla
                               ornare convallis malesuada. Phasellus molestie,
                               ipsum ac fringilla.
-                            </h4>
+                            </h3>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
+                            <h4>Daniel Smith</h4>
                             <p>Senior engineer</p>
                           </div>
                         </div>
@@ -246,16 +246,16 @@ const HomeTestimonial = () => {
                             <i className="fa-solid fa-quote-right"></i>
                           </div>
                           <div className="content">
-                            <h4>
+                            <h3>
                               posuere luctus orci. Donec vitae mattis quam,
                               vitae tempor arcu. Aenean non odio porttitor,
                               convallis erat sit amet, facilisis velit. Nulla
                               ornare convallis malesuada. Phasellus molestie,
                               ipsum ac fringilla.
-                            </h4>
+                            </h3>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
+                            <h4>Daniel Smith</h4>
                             <p>Senior engineer</p>
                           </div>
                         </div>
