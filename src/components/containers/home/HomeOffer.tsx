@@ -7,28 +7,28 @@ import three from "public/images/offer/three.png";
 import star from "public/images/offer/star.png";
 
 const HomeOffer = () => {
-  useEffect(() => {
-    const handleMouseMove = (event: MouseEvent) => {
-      const caseStudyItems = document.querySelectorAll(".offer__cta-single");
-      const deviceWidth = window.innerWidth;
+  // useEffect(() => {
+  //   const handleMouseMove = (event: MouseEvent) => {
+  //     const caseStudyItems = document.querySelectorAll(".offer__cta-single");
+  //     const deviceWidth = window.innerWidth;
 
-      if (deviceWidth > 576) {
-        caseStudyItems.forEach((item) => {
-          const contentBox = item.getBoundingClientRect();
-          const dx = event.clientX - contentBox.x;
-          const dy = event.clientY - contentBox.y;
-          const thirdChild = item.children[2] as HTMLElement;
-          thirdChild.style.transform = `translate(${dx}px, ${dy}px) rotate(10deg)`;
-        });
-      }
-    };
+  //     if (deviceWidth > 576) {
+  //       caseStudyItems.forEach((item) => {
+  //         const contentBox = item.getBoundingClientRect();
+  //         const dx = event.clientX - contentBox.x;
+  //         const dy = event.clientY - contentBox.y;
+  //         const thirdChild = item.children[2] as HTMLElement;
+  //         thirdChild.style.transform = `translate(${dx}px, ${dy}px) rotate(10deg)`;
+  //       });
+  //     }
+  //   };
 
-    window.addEventListener("mousemove", handleMouseMove);
+  //   window.addEventListener("mousemove", handleMouseMove);
 
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("mousemove", handleMouseMove);
+  //   };
+  // }, []);
 
   return (
     <section className="section offer fade-wrapper light">
@@ -72,9 +72,7 @@ const HomeOffer = () => {
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
-                </div>
+               
               </div>
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
@@ -87,9 +85,7 @@ const HomeOffer = () => {
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={two} alt="Image" />
-                </div>
+                 
               </div>
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
@@ -102,9 +98,7 @@ const HomeOffer = () => {
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={three} alt="Image" />
-                </div>
+                 
               </div>
               <div className="offer__cta-single fade-top">
                 <span className="sub-title">
@@ -117,9 +111,7 @@ const HomeOffer = () => {
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
-                <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
-                </div>
+                
               </div>
             </div>
           </div>
