@@ -92,7 +92,7 @@ const HomeOneBanner = () => {
         <div className="video-overlay position-absolute top-0 start-0 w-100 h-100 z-0"></div>
 
 
-        <Image src={star} alt="Image" className="star z-1"  width={100} height={100} />
+        <Image src={star} alt="Image" className="star z-1"  width={50} height={50} />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
           <Link href="mailto:info@xpovio.com" className="text-white">mail : cs@devdream.my.id</Link>
           <Link href="tel:99-2158-003-6980" className="text-white">Call : +00 000-0000-0000</Link>
