@@ -1,4 +1,4 @@
-import React,{useRef, useState, useEffect} from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -11,7 +11,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
-const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear();
 
   const animatedTextRef = useRef<any>(null);
   const [animatedTextContent, setAnimatedTextContent] = useState("");
@@ -110,9 +110,9 @@ const currentYear = new Date().getFullYear();
 
 
 
- 
+
   let logoSrc = logo;
-  
+
   const router = useRouter();
   if (router.pathname === "/index-four-light") {
     logoSrc = logoLight;
@@ -122,7 +122,7 @@ const currentYear = new Date().getFullYear();
     logoSrc = logoLight;
   }
 
-  
+
   return (
     <footer className="section footer-four pb-0">
       <div className="container">
@@ -171,26 +171,26 @@ const currentYear = new Date().getFullYear();
           </div>
           <div className="col-12 col-lg-6">
             <div className="text-center text-lg-end">
-             <h2 className="fs-3">
-           <Link
-  href="mailto:cs@devdream.my.id"
-  className="folks-text animated-text"
-  ref={animatedTextRef}
-  aria-label="Kirim email ke cs@devdream.my.id"
->
-   <span className="sr-only">cs@devdream.my.id</span>
-  {animatedTextContent.split("").map((char, index) => (
-    <span
-      aria-hidden="true"
-      className="animated-char"
-      key={index}
-    >
-      {char}
-    </span>
-  ))}
-</Link>
+              <h2 className="fs-3">
+                <Link
+                  href="mailto:cs@devdream.my.id"
+                  className="folks-text animated-text"
+                  ref={animatedTextRef}
+                  aria-label="Kirim email ke cs@devdream.my.id"
+                >
+                  <span className="sr-only">cs@devdream.my.id</span>
+                  {animatedTextContent.split("").map((char, index) => (
+                    <span
+                      aria-hidden="true"
+                      className="animated-char"
+                      key={index}
+                    >
+                      {char}
+                    </span>
+                  ))}
+                </Link>
 
-                </h2>
+              </h2>
             </div>
           </div>
         </div>
@@ -218,11 +218,11 @@ const currentYear = new Date().getFullYear();
                   </div>
                   <div className="col-12 col-lg-4">
                     <div className="text-center text-lg-end">
-                    <div className="logo">
-                    <a href="/" className="gradient-text text-decoration-none" aria-label="go to home">
-                      dev<span>Dream</span>
-                    </a>
-                  </div>
+                      <div className="logo">
+                        <a href="/" className="gradient-text text-decoration-none" aria-label="go to home">
+                          dev<span>Dream</span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>

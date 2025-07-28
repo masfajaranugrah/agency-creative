@@ -1,8 +1,22 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/portfolio": "pages/portfolio.js",
-  "/404": "pages/404.js"
+  "/404": "pages/404.html",
+  "/about-us": "pages/about-us.html",
+  "/blog-single": "pages/blog-single.html",
+  "/client-feedback": "pages/client-feedback.html",
+  "/blog": "pages/blog.html",
+  "/contact-us": "pages/contact-us.html",
+  "/api/hello": "pages/api/hello.js",
+  "/faq": "pages/faq.html",
+  "/our-projects": "pages/our-projects.html",
+  "/": "pages/index.html",
+  "/our-services": "pages/our-services.html",
+  "/our-teams": "pages/our-teams.html",
+  "/portfolio": "pages/portfolio.html",
+  "/our-story": "pages/our-story.html",
+  "/project-single": "pages/project-single.html",
+  "/team-single": "pages/team-single.html",
+  "/service-single": "pages/service-single.html",
+  "/_error": "pages/_error.js"
 }
