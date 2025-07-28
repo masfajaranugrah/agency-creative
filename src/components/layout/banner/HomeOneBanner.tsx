@@ -3,9 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import banneronethumb from "public/images/banner/image.png";
-import star from "public/images/star.png";
-import videoframe from "public/images/video-frame.png";
+import star from "public/images/star.svg";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -48,7 +46,7 @@ const HomeOneBanner = () => {
   return (
     <>
       <section className="banner">
-        <div className="container">
+        <div className="container position-relative z-1">
           <div className="row">
             <div className="col-12">
               <div className="banner__content">
@@ -80,34 +78,37 @@ const HomeOneBanner = () => {
             </div>
           </div>
         </div>
-        <Image
-          src={banneronethumb}
-          alt="Image"
-          className="banner-one-thumb d-none d-sm-block g-ban-one"
+        {/* VIDEO background */}
+        <video
+          className="video-bg position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-n1"
+          src="/images/banner/dayana.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
         />
-        <Image src={star} alt="Image" className="star" />
+
+
+        <div className="video-overlay position-absolute top-0 start-0 w-100 h-100 z-0"></div>
+
+
+        <Image src={star} alt="Image" className="star z-1"  width={100} height={100} />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:info@xpovio.com">mail : cs@devdream.my.id</Link>
-          <Link href="tel:99-2158-003-6980">Call : +00 000-0000-0000</Link>
+          <Link href="mailto:info@xpovio.com" className="text-white">mail : cs@devdream.my.id</Link>
+          <Link href="tel:99-2158-003-6980" className="text-white">Call : +00 000-0000-0000</Link>
         </div>
-        <div className="banner-right-text banner-social-text d-none d-md-flex">
-          <Link href="https://www.instagram.com/" target="_blank">
+        <div className="banner-right-text banner-social-text d-none d-md-flex z-50 text-white">
+          <Link href="https://www.instagram.com/" target="_blank" className="text-white">
             instagram
           </Link>
-          <Link href="https://www.pinterest.com/" target="_blank">
+          <Link href="https://www.pinterest.com/" target="_blank" className="text-white">
             Linkedin
           </Link>
-          <Link href="https://www.facebook.com/" target="_blank">
+          <Link href="https://www.facebook.com/" target="_blank" className="text-white">
             facebook
           </Link>
         </div>
-        <button
-          className="video-frame video-btn"
-          onClick={() => setVideoActive(true)}
-        >
-          <Image src={videoframe} alt="Image" priority />
-          <i className="fa-sharp fa-solid fa-play"></i>
-        </button>
+        
         <div className="lines d-none d-lg-flex">
           <div className="line"></div>
           <div className="line"></div>

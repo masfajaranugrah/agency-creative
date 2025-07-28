@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import logo from "public/images/logo.png";
-import logoLight from "public/images/logo-light.png";
+import Link from "next/link";
+import Image from "next/image";
+
 import Offcanvas from "./Offcanvas";
 
 interface HeaderProps {
@@ -12,48 +13,46 @@ interface HeaderProps {
 
 const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
   const [scrolled, setScrolled] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      if (scrollPosition > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 50);
     };
-
     window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const defaultClasses = "primary-navbar secondary--navbar";
-
-  const combinedClasses = `${scrolled ? " navbar-active" : " "
-    } ${defaultClasses}`;
-
-  let logoSrc = logo;
-
-  const router = useRouter();
-  if (router.pathname === "/index-light") {
-    logoSrc = logoLight;
-  }
+ 
 
   return (
     <>
       <header className="header">
-        <div className={combinedClasses}>
+        <div
+          className={`fixed w-full z-50 top-0  transition-navbar ${scrolled ? "navbar-scrolled" : "navbar-transparent"
+            } ${defaultClasses}`}
+        >
           <div className="container">
             <div className="row">
               <div className="col-12">
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
-                    <a href="/" className="gradient-text text-decoration-none" aria-label="go to home">
-                      dev<span>Dream</span>
-                    </a>
+                    <Link
+                      href="/"
+                      className="gradient-text text-decoration-none"
+                      aria-label="go to home"
+                    >
+                      <Image
+                        src="/images/logo.png"
+                        alt="Logo"
+                        width={150}
+                        height={50}
+                        priority
+                        className="object-contain"
+                      />
+
+                    </Link>
                   </div>
                   <div className="navbar__options">
                     <button

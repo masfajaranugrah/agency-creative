@@ -113,3 +113,23 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .video-overlay {
+  background: rgba(0, 0, 0, 0.5);  
+  pointer-events: none;           
+}
+ 
+ .transition-navbar {
+  transition: background-color 0.5s ease, box-shadow 0.5s ease, color 0.5s ease;
+}
+
+.navbar-transparent {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+}

@@ -29,14 +29,14 @@ var external_vanilla_tilt_ = __webpack_require__(5177);
 var external_vanilla_tilt_default = /*#__PURE__*/__webpack_require__.n(external_vanilla_tilt_);
 // EXTERNAL MODULE: external "next/router"
 var router_ = __webpack_require__(1853);
-;// CONCATENATED MODULE: ./public/images/logo.png
-/* harmony default export */ const logo = ({"src":"/_next/static/media/logo.1d64c182.png","height":40,"width":126,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAHlBMVEX/////////+PT+/v7/////////////6d//y6L/6960beg+AAAACHRSTlMSd1kJH4iw+tjWCVcAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAhSURBVHicY+BkYmZgYGBgZuBgY2JlZGRkZWAHibAwsAAAA8IAQ9sTa64AAAAASUVORK5CYII=","blurWidth":8,"blurHeight":3});
-;// CONCATENATED MODULE: ./public/images/logo-light.png
-/* harmony default export */ const logo_light = ({"src":"/_next/static/media/logo-light.ac117c2f.png","height":40,"width":126,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAIVBMVEUAAAAAAAAAAAAAAAAAAAAnEgUAAAAfDgUCAQAFAgCFPBN6vLd3AAAACnRSTlMSCXeIH/1bWrBWuPqe5AAAAAlwSFlzAAALEwAACxMBAJqcGAAAACBJREFUeJwFwYcNACAMACC6ovX/gwVzAsK7W5lZZtH6AwQvAExOg0HwAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":3});
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(1664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(5675);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./src/components/layout/header/Offcanvas.tsx
+
 
 
 
@@ -69,7 +69,6 @@ const Offcanvas = ({ openNav, setOpenNav })=>{
     const isSubMenuButton = (submenu)=>{
         return submenu === openSubMenu ? " navbar__item-active" : " ";
     };
-    // window resize
     (0,external_react_.useEffect)(()=>{
         const handleResizeHeader = ()=>{
             setOpenNav(false);
@@ -97,16 +96,18 @@ const Offcanvas = ({ openNav, setOpenNav })=>{
                         children: [
                             /*#__PURE__*/ jsx_runtime.jsx("div", {
                                 className: "logo",
-                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
+                                children: /*#__PURE__*/ jsx_runtime.jsx("a", {
                                     href: "/",
                                     className: "gradient-text text-decoration-none",
                                     "aria-label": "go to home",
-                                    children: [
-                                        "dev",
-                                        /*#__PURE__*/ jsx_runtime.jsx("span", {
-                                            children: "Dream"
-                                        })
-                                    ]
+                                    children: /*#__PURE__*/ jsx_runtime.jsx((image_default()), {
+                                        src: "/images/logo.png",
+                                        alt: "Logo",
+                                        width: 150,
+                                        height: 50,
+                                        priority: true,
+                                        className: "object-contain"
+                                    })
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime.jsx("button", {
@@ -371,33 +372,21 @@ const Offcanvas = ({ openNav, setOpenNav })=>{
 
 const Header = ({ openNav, handleNav, setOpenNav })=>{
     const [scrolled, setScrolled] = (0,external_react_.useState)(false);
+    const router = (0,router_.useRouter)();
     (0,external_react_.useEffect)(()=>{
         const handleScroll = ()=>{
-            const scrollPosition = window.scrollY;
-            if (scrollPosition > 50) {
-                setScrolled(true);
-            } else {
-                setScrolled(false);
-            }
+            setScrolled(window.scrollY > 50);
         };
         window.addEventListener("scroll", handleScroll);
-        return ()=>{
-            window.removeEventListener("scroll", handleScroll);
-        };
+        return ()=>window.removeEventListener("scroll", handleScroll);
     }, []);
     const defaultClasses = "primary-navbar secondary--navbar";
-    const combinedClasses = `${scrolled ? " navbar-active" : " "} ${defaultClasses}`;
-    let logoSrc = logo;
-    const router = (0,router_.useRouter)();
-    if (router.pathname === "/index-light") {
-        logoSrc = logo_light;
-    }
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime.jsx("header", {
                 className: "header",
                 children: /*#__PURE__*/ jsx_runtime.jsx("div", {
-                    className: combinedClasses,
+                    className: `fixed w-full z-50 top-0  transition-navbar ${scrolled ? "navbar-scrolled" : "navbar-transparent"} ${defaultClasses}`,
                     children: /*#__PURE__*/ jsx_runtime.jsx("div", {
                         className: "container",
                         children: /*#__PURE__*/ jsx_runtime.jsx("div", {
@@ -409,16 +398,18 @@ const Header = ({ openNav, handleNav, setOpenNav })=>{
                                     children: [
                                         /*#__PURE__*/ jsx_runtime.jsx("div", {
                                             className: "navbar__logo",
-                                            children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("a", {
+                                            children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
                                                 href: "/",
                                                 className: "gradient-text text-decoration-none",
                                                 "aria-label": "go to home",
-                                                children: [
-                                                    "dev",
-                                                    /*#__PURE__*/ jsx_runtime.jsx("span", {
-                                                        children: "Dream"
-                                                    })
-                                                ]
+                                                children: /*#__PURE__*/ jsx_runtime.jsx((image_default()), {
+                                                    src: "/images/logo.png",
+                                                    alt: "Logo",
+                                                    width: 150,
+                                                    height: 50,
+                                                    priority: true,
+                                                    className: "object-contain"
+                                                })
                                             })
                                         }),
                                         /*#__PURE__*/ jsx_runtime.jsx("div", {
@@ -446,6 +437,10 @@ const Header = ({ openNav, handleNav, setOpenNav })=>{
 };
 /* harmony default export */ const header_Header = (Header);
 
+;// CONCATENATED MODULE: ./public/images/logo.png
+/* harmony default export */ const logo = ({"src":"/_next/static/media/logo.d865b1dd.png","height":247,"width":1029,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAABlBMVEX///////9VfPVsAAAAAnRSTlMnIJc4X5UAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAWSURBVHicY2BgYGBkAANGBkZGRgYGAAAzAAaJgjJ2AAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":2});
+;// CONCATENATED MODULE: ./public/images/logo-light.png
+/* harmony default export */ const logo_light = ({"src":"/_next/static/media/logo-light.ac117c2f.png","height":40,"width":126,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAIVBMVEUAAAAAAAAAAAAAAAAAAAAnEgUAAAAfDgUCAQAFAgCFPBN6vLd3AAAACnRSTlMSCXeIH/1bWrBWuPqe5AAAAAlwSFlzAAALEwAACxMBAJqcGAAAACBJREFUeJwFwYcNACAMACC6ovX/gwVzAsK7W5lZZtH6AwQvAExOg0HwAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":3});
 ;// CONCATENATED MODULE: ./src/components/layout/header/HeaderTwo.tsx
 
 

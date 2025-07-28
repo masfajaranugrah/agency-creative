@@ -44,7 +44,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
     return submenu === openSubMenu ? " navbar__item-active" : " ";
   };
 
-  // window resize
+ 
   useEffect(() => {
     const handleResizeHeader = (): void => {
       setOpenNav(false);
@@ -72,7 +72,14 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__header nav-fade">
          <div className="logo">
                     <a href="/" className="gradient-text text-decoration-none" aria-label="go to home">
-                      dev<span>Dream</span>
+                       <Image
+                        src="/images/logo.png"
+                        alt="Logo"
+                        width={150}
+                        height={50}
+                        priority
+                        className="object-contain"
+                      />
                     </a>
                   </div>
             <button
