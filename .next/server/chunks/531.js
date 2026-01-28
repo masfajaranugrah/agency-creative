@@ -438,9 +438,9 @@ const Header = ({ openNav, handleNav, setOpenNav })=>{
 /* harmony default export */ const header_Header = (Header);
 
 ;// CONCATENATED MODULE: ./public/images/logo.png
-/* harmony default export */ const logo = ({"src":"/_next/static/media/logo.d865b1dd.png","height":247,"width":1029,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAABlBMVEX///////9VfPVsAAAAAnRSTlMnIJc4X5UAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAWSURBVHicY2BgYGBkAANGBkZGRgYGAAAzAAaJgjJ2AAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":2});
+/* harmony default export */ const logo = ({"src":"/_next/static/media/logo.d865b1dd.png","height":247,"width":1029,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAABlBMVEX///////9VfPVsAAAAAnRSTlMnHyFecqgAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAWSURBVHicY2BgYGBkAANGBkZGRkYGAAA1AAe+AwsrAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":2});
 ;// CONCATENATED MODULE: ./public/images/logo-light.png
-/* harmony default export */ const logo_light = ({"src":"/_next/static/media/logo-light.ac117c2f.png","height":40,"width":126,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAIVBMVEUAAAAAAAAAAAAAAAAAAAAnEgUAAAAfDgUCAQAFAgCFPBN6vLd3AAAACnRSTlMSCXeIH/1bWrBWuPqe5AAAAAlwSFlzAAALEwAACxMBAJqcGAAAACBJREFUeJwFwYcNACAMACC6ovX/gwVzAsK7W5lZZtH6AwQvAExOg0HwAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":3});
+/* harmony default export */ const logo_light = ({"src":"/_next/static/media/logo-light.ac117c2f.png","height":40,"width":126,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAIVBMVEUAAAAAAAAAAAAAAAAAAAAnEgUAAAAFAgABAQAfDgWFPRMAVdojAAAACnRSTlMMFHcfiP1bV7BZbnlqEgAAAAlwSFlzAAALEwAACxMBAJqcGAAAACFJREFUeJwFwYcNAAAIw7C0gBj/H4xNLQjgptN2Uo0UigcEPwBMq5n0fgAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":3});
 ;// CONCATENATED MODULE: ./src/components/layout/header/HeaderTwo.tsx
 
 
@@ -863,14 +863,14 @@ const Footer = ()=>{
                                     children: /*#__PURE__*/ jsx_runtime.jsx("h2", {
                                         className: "fs-3",
                                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
-                                            href: "mailto:cs@devdream.my.id",
+                                            href: "mailto:cs@dayanastudios.my.id",
                                             className: "folks-text animated-text",
                                             ref: animatedTextRef,
-                                            "aria-label": "Kirim email ke cs@devdream.my.id",
+                                            "aria-label": "Kirim email ke cs@dayanastudios.my.id",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime.jsx("span", {
                                                     className: "sr-only",
-                                                    children: "cs@devdream.my.id"
+                                                    children: "cs@dayanastudios.my.id"
                                                 }),
                                                 animatedTextContent.split("").map((char, index)=>/*#__PURE__*/ jsx_runtime.jsx("span", {
                                                         "aria-hidden": "true",
@@ -911,10 +911,10 @@ const Footer = ()=>{
                                                             id: "copyYear",
                                                             children: currentYear
                                                         }),
-                                                        " dev dream by",
+                                                        " Dayana Studios by",
                                                         " ",
                                                         /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
-                                                            href: "https://devdream.my.id",
+                                                            href: "https://dayanastudios.my.id",
                                                             target: "_blank",
                                                             children: [
                                                                 "fajar anugrah",
@@ -937,9 +937,9 @@ const Footer = ()=>{
                                                         className: "gradient-text text-decoration-none",
                                                         "aria-label": "go to home",
                                                         children: [
-                                                            "dev",
+                                                            "Dayana ",
                                                             /*#__PURE__*/ jsx_runtime.jsx("span", {
-                                                                children: "Dream"
+                                                                children: "Studios"
                                                             })
                                                         ]
                                                     })
@@ -1265,7 +1265,7 @@ const Layout = ({ children, header, footer, handleMouseEnterTitle, handleMouseLe
                         type: "image/x-icon"
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("title", {
-                        children: "Dev Dream |  Creative Portfolio"
+                        children: "Dayana Studios |  Creative Portfolio"
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("meta", {
                         name: "keywords",

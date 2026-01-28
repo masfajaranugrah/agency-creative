@@ -25,7 +25,7 @@ var external_gsap_default = /*#__PURE__*/__webpack_require__.n(external_gsap_);
 // EXTERNAL MODULE: external "gsap/dist/ScrollTrigger"
 var ScrollTrigger_ = __webpack_require__(4965);
 ;// CONCATENATED MODULE: ./public/images/modal-bg.png
-/* harmony default export */ const modal_bg = ({"src":"/_next/static/media/modal-bg.a29d8d6d.png","height":775,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAD1BMVEW5ubmNjY2Hh4eZmZmYmJjIz8i4AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAE0lEQVR4nGNggANmJiZGFiYEHwAA2AAPHZ/VjwAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":3});
+/* harmony default export */ const modal_bg = ({"src":"/_next/static/media/modal-bg.a29d8d6d.png","height":775,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAD1BMVEW5ubmHh4eNjY2YmJiZmZlWtdccAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAE0lEQVR4nGNggAMWRkYmZkYEHwAAwQAN07vN9gAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":3});
 ;// CONCATENATED MODULE: ./public/images/video-frame-two.png
 /* harmony default export */ const video_frame_two = ({"src":"/_next/static/media/video-frame-two.05d5737c.png","height":189,"width":190,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAACVBMVEX///////////+OSuX+AAAAA3RSTlMhARDHVcksAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAI0lEQVR4nH2LoQ0AMAyAgP+PXlpROQUCMIIk1MFS+cnFzkw+CCgAOSY6ysgAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
 // EXTERNAL MODULE: ./src/components/youtube/YoutubeEmbed.tsx

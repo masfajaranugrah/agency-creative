@@ -22,7 +22,7 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 // EXTERNAL MODULE: ./src/components/youtube/YoutubeEmbed.tsx
 var YoutubeEmbed = __webpack_require__(8988);
 ;// CONCATENATED MODULE: ./public/images/video-frame.png
-/* harmony default export */ const video_frame = ({"src":"/_next/static/media/video-frame.7e9b5e1a.png","height":189,"width":190,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAACVBMVEVFRUUwMDBFRUXIsT8hAAAAA3RSTlMhARDHVcksAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAI0lEQVR4nH2LoQ0AMAyAgP+PXlpROQUCMIIk1MFS+cnFzkw+CCgAOSY6ysgAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
+/* harmony default export */ const video_frame = ({"src":"/_next/static/media/video-frame.7e9b5e1a.png","height":189,"width":190,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAADFBMVEVEREQxMTFJSUlFRUXvNGhlAAAABHRSTlMhARALd88PLwAAAAlwSFlzAAALEwAACxMBAJqcGAAAACVJREFUeJx9yqERADAMgECg++/cS0Vk1SPACJJQh6fyi50NDnkBCCwAOqmSW1YAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./src/components/containers/project/WorkStepsProject.tsx
 
 
