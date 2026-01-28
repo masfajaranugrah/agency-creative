@@ -174,7 +174,7 @@ const Layout = ({
           href="/images/favicon.png"
           type="image/x-icon"
         />
-        <title>Dev Dream |  Creative Portfolio</title>
+        <title>Dayana Studios |  Creative Portfolio</title>
         <meta name="keywords" content="creative, agency, portfolio" />
         <meta
           name="description"

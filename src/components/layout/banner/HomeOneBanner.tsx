@@ -94,7 +94,7 @@ const HomeOneBanner = () => {
 
         <Image src={star} alt="Image" className="star z-1"  width={50} height={50} />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:info@xpovio.com" className="text-white">mail : cs@devdream.my.id</Link>
+          <Link href="mailto:info@xpovio.com" className="text-white">mail : cs@dayanastudios.my.id</Link>
           <Link href="tel:99-2158-003-6980" className="text-white">Call : +00 000-0000-0000</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex z-50 text-white">

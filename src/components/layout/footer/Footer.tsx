@@ -173,12 +173,12 @@ const Footer = () => {
             <div className="text-center text-lg-end">
               <h2 className="fs-3">
                 <Link
-                  href="mailto:cs@devdream.my.id"
+                  href="mailto:cs@dayanastudios.my.id"
                   className="folks-text animated-text"
                   ref={animatedTextRef}
-                  aria-label="Kirim email ke cs@devdream.my.id"
+                  aria-label="Kirim email ke cs@dayanastudios.my.id"
                 >
-                  <span className="sr-only">cs@devdream.my.id</span>
+                  <span className="sr-only">cs@dayanastudios.my.id</span>
                   {animatedTextContent.split("").map((char, index) => (
                     <span
                       aria-hidden="true"
@@ -205,9 +205,9 @@ const Footer = () => {
                     <div className="footer__copyright-text text-center text-lg-start">
                       <p>
                         Copyright &copy;{" "}
-                        <span id="copyYear">{currentYear}</span> dev dream by{" "}
+                        <span id="copyYear">{currentYear}</span> Dayana Studios by{" "}
                         <Link
-                          href="https://devdream.my.id"
+                          href="https://dayanastudios.my.id"
                           target="_blank"
                         >
                           fajar anugrah{" "}
@@ -220,7 +220,7 @@ const Footer = () => {
                     <div className="text-center text-lg-end">
                       <div className="logo">
                         <a href="/" className="gradient-text text-decoration-none" aria-label="go to home">
-                          dev<span>Dream</span>
+                          Dayana <span>Studios</span>
                         </a>
                       </div>
                     </div>
