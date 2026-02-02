@@ -14,7 +14,6 @@ const OurServices = () => {
       <ServiceMain />
       <HomeTwoModal />
       <UxProcessTwo />
-      <HomeTestimonialThree />
       <CtaTwo />
     </Layout>
   );

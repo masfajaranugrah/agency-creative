@@ -218,9 +218,15 @@ const Footer = () => {
                   <div className="col-12 col-lg-4">
                     <div className="text-center text-lg-end">
                       <div className="logo">
-                        <a href="/" className="gradient-text text-decoration-none" aria-label="go to home">
-                          Dayana <span>Studios</span>
-                        </a>
+                        <Link href="/" className="text-decoration-none" aria-label="go to home">
+                          <Image
+                            src={logoSrc}
+                            alt="Dayana Studios"
+                            width={150}
+                            height={50}
+                            className="object-contain"
+                          />
+                        </Link>
                       </div>
                     </div>
                   </div>

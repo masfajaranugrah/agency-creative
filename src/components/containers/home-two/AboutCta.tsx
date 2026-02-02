@@ -1,44 +1,32 @@
 import React from "react";
-import Image from "next/image";
-import star from "public/images/testimonial/star.png";
+import Link from "next/link";
 
 const AboutCta = () => {
   return (
-    <section className="cta-s section">
+    <section className="section footer-four">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div
-              className="cta__wrapper"
-              data-background="assets/images/cta-bg.png"
-            >
-              <div className="row justify-content-center">
-                <div className="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-9">
-                  <div className="section__header text-center">
-                    <h2 className="title">
-                      Stay Ahead With Our Top Notch Digital Services
-                    </h2>
-                  </div>
-                  <div className="footer__single-form">
-                    <form action="#" method="post">
-                      <div className="input-email">
-                        <input
-                          type="email"
-                          name="subscribe-news"
-                          id="subscribeNews"
-                          placeholder="Enter Your Email"
-                          required
-                        />
-                        <button type="submit" className="subscribe">
-                          <i className="fa-sharp fa-solid fa-paper-plane"></i>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+            <div className="footer-four__content">
+              <div className="intro text-center">
+                <h2 className="light-title text-uppercase title-anim">
+                  Let&apos;s turn your ideas powerfull visual stories
+                </h2>
+              </div>
+              <div className="row justify-content-center cta-t section__content-cta">
+                <div className="col-12 col-md-8">
+                  <h3>
+                    <Link href="contact-us">
+                      Let&apos;s Collaborate
+                      <i className="fa-regular fa-comment-dots"></i>
+                    </Link>
+                  </h3>
+                  <p>
+                    Animation and visual production designed to communicate
+                    clearly, creatively, and effectively
+                  </p>
                 </div>
               </div>
-              <Image src={star} alt="Image" className="star" />
-              <Image src={star} alt="Image" className="star-two" />
             </div>
           </div>
         </div>

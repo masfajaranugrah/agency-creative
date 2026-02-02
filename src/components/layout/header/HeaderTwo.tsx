@@ -54,9 +54,16 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
               <div className="col-12">
                 <nav className="navbar p-0">
                  <div className="navbar__logo">
-                    <a href="/" className="gradient-text text-decoration-none" aria-label="go to home">
-                      Dayana<span>Studios</span>
-                    </a>
+                    <Link href="/" className="text-decoration-none" aria-label="go to home">
+                      <Image
+                        src={logoSrc}
+                        alt="Dayana Studios"
+                        width={150}
+                        height={50}
+                        priority
+                        className="object-contain"
+                      />
+                    </Link>
                   </div>
                   <div className="navbar__menu">
                     <ul>

@@ -4,7 +4,7 @@ const UxProcessTwo = () => {
   const [imgTab, setImgTab] = useState(0);
 
   return (
-    <section className="section ux-process fade-wrapper">
+    <section className="section ux-process bg-tertiary fade-wrapper">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-8">
@@ -13,7 +13,7 @@ const UxProcessTwo = () => {
                 UX Process
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">working UX Process</h2>
+              <h2 className="title title-anim">How We Bring Stories to life</h2>
             </div>
           </div>
         </div>
@@ -28,14 +28,13 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>User Research</h4>
+                    <h4>Concept Development</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We develop the core idea, goals, and creative direction
+                    to align the project with it's intended message.
                   </p>
                 </div>
                 <button
@@ -51,14 +50,13 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>story board</h4>
+                    <h4>Script & Storyboard</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We structure the story and visuals to define flow, timing,
+                    and narrative clarity before production.
                   </p>
                 </div>
                 <button
@@ -74,14 +72,13 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>wireframing</h4>
+                    <h4>Design & Asset Creation</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We design visual styles, characters, and assets that
+                    support the story and animation needs.
                   </p>
                 </div>
                 <button
@@ -97,14 +94,13 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>Prototyping</h4>
+                    <h4>Production Shooting</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We produce live-action footage or visual references
+                    when required to support the animation process.
                   </p>
                 </div>
                 <button
@@ -120,14 +116,13 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>usability testing</h4>
+                    <h4>Animation Production</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We animate scenes based on approved designs and storyboards
+                    with attention to motion and detail.
                   </p>
                 </div>
                 <button
@@ -143,19 +138,40 @@ const UxProcessTwo = () => {
               >
                 <div className="single-item">
                   <div className="intro-btn">
-                    <h4>UI Design</h4>
+                    <h4>Composing & Rendering</h4>
                   </div>
                 </div>
                 <div className="single-item p-single p-sm body-cn">
                   <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
+                    We combine all visual elements and finalize lighting, effects,
+                    and output quality.
                   </p>
                 </div>
                 <button
                   className="toggle-service-f"
                   onClick={() => setImgTab(imgTab === 5 ? -1 : 5)}
+                ></button>
+              </div>
+              <div
+                className={
+                  "service-f-single fade-top " +
+                  (imgTab == 6 ? " service-f-single-active" : " ")
+                }
+              >
+                <div className="single-item">
+                  <div className="intro-btn">
+                    <h4>Final Review & Delivery</h4>
+                  </div>
+                </div>
+                <div className="single-item p-single p-sm body-cn">
+                  <p>
+                    We refine, review, and deliver the final content
+                    according to project requirements.
+                  </p>
+                </div>
+                <button
+                  className="toggle-service-f"
+                  onClick={() => setImgTab(imgTab === 6 ? -1 : 6)}
                 ></button>
               </div>
             </div>
