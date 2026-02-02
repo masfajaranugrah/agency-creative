@@ -52,24 +52,24 @@ const HomeOneBanner = () => {
               <div className="banner__content">
                 <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
                   We are
-                  <span className="text-stroke"> Production</span>
+                  <span className="text-stroke"> Creative</span>
                   <span className="interval">
                     <i className="icon-arrow-top-right"></i> House
                   </span>
                 </h1>
                 <div className="banner__content-inner">
                   <p>
-                    We are a full-service website design, development and
-                    digital marketing company specializing in SEO, content
-                    marketing that grows brands.
+                    A league of production and post production
+                    specialist in 3D Animation, Video Production,  
+                    and Visual content agency.
                   </p>
                   <div className="cta section__content-cta">
                     <div className="single">
-                      <h2 className="fw-7">12+</h2>
+                      <h2 className="fw-7">5+</h2>
                       <p className="fw-5">years of experience</p>
                     </div>
                     <div className="single">
-                      <h2 className="fw-7">25k</h2>
+                      <h2 className="fw-7">457+</h2>
                       <p className="fw-5">completed projects</p>
                     </div>
                   </div>
@@ -94,7 +94,7 @@ const HomeOneBanner = () => {
 
         <Image src={star} alt="Image" className="star z-1"  width={50} height={50} />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:info@xpovio.com" className="text-white">mail : cs@dayanastudios.my.id</Link>
+          <Link href="mailto:info@xpovio.com" className="text-white">mail : hello.dayanacreative@gmail.com</Link>
           <Link href="tel:99-2158-003-6980" className="text-white">Call : +00 000-0000-0000</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex z-50 text-white">

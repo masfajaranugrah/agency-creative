@@ -131,19 +131,18 @@ const Footer = () => {
             <div className="footer-four__content">
               <div className="intro text-center">
                 <h2 className="light-title text-uppercase title-anim">
-                  Let&apos;s make some magic ✨ happen and show the world what
-                  your brand is all about!
+                  Let&apos;s turn your ideas powerfull visual stories
                 </h2>
               </div>
               <div className="row justify-content-center cta-t section__content-cta">
                 <div className="col-12 col-md-8">
                   <h3>
                     <Link href="contact-us">
-                      Let&apos;s Talk
+                      Let&apos;s Collaborate
                       <i className="fa-regular fa-comment-dots"></i>
                     </Link>
                   </h3>
-                  <p>Let&apos;s make your brand the talk of the town</p>
+                  <p>Animation and visual production designed to communicate clearly, creatively, and effectively</p>
                 </div>
               </div>
             </div>
@@ -173,12 +172,12 @@ const Footer = () => {
             <div className="text-center text-lg-end">
               <h2 className="fs-3">
                 <Link
-                  href="mailto:cs@dayanastudios.my.id"
+                  href="mailto:hello.dayanacreative@gmail.com"
                   className="folks-text animated-text"
                   ref={animatedTextRef}
-                  aria-label="Kirim email ke cs@dayanastudios.my.id"
+                  aria-label="Kirim email ke hello.dayanacreative@gmail.com"
                 >
-                  <span className="sr-only">cs@dayanastudios.my.id</span>
+                  <span className="sr-only">hello.dayanacreative@gmail.com</span>
                   {animatedTextContent.split("").map((char, index) => (
                     <span
                       aria-hidden="true"
@@ -210,7 +209,7 @@ const Footer = () => {
                           href="https://dayanastudios.my.id"
                           target="_blank"
                         >
-                          fajar anugrah{" "}
+                          Astheron Technologies{" "}
                         </Link>
                         . All Rights Reserved
                       </p>

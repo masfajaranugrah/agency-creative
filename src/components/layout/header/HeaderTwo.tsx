@@ -55,7 +55,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <nav className="navbar p-0">
                  <div className="navbar__logo">
                     <a href="/" className="gradient-text text-decoration-none" aria-label="go to home">
-                      dev<span>Dream</span>
+                      Dayana<span>Studios</span>
                     </a>
                   </div>
                   <div className="navbar__menu">

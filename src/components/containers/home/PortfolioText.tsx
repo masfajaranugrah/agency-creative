@@ -37,7 +37,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h1 className="h1">
                 <Link href="/portfolio">
-                  Production House
+                  Creative House
                <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h1>
@@ -47,7 +47,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h1 className="h1 str">
                 <Link href="/portfolio">
-                  Production House
+                  Creative House
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h1>
@@ -57,7 +57,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h1 className="h1">
                 <Link href="/portfolio">
-                  Production House
+                  Creative House
                   <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h1>
@@ -67,7 +67,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h1 className="h1 str">
                 <Link href="/portfolio">
-                  Production House
+                  Creative House
                 <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h1>
@@ -77,7 +77,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h1 className="h1">
                 <Link href="/portfolio">
-                  Production House
+                  Creative House
                <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h1>
@@ -87,7 +87,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h1 className="h1 str">
                 <Link href="/portfolio">
-                  Production House
+                  Creative House
               <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h1>
@@ -97,7 +97,7 @@ const PortfolioText = () => {
             <div className="portfolio__text-slider-single">
               <h1 className="h1">
                 <Link href="/portfolio">
-                  Production House
+                  Creative House
                <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
                 </Link>
               </h1>
@@ -127,7 +127,7 @@ const PortfolioText = () => {
 
                 {/* Judul sebagai link */}
                 <h2>
-                  <Link href="/portfolio">Digital Marketing</Link>
+                  <Link href="/portfolio">Animation Production</Link>
                 </h2>
               </div>
             </div>
@@ -149,7 +149,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right" aria-hidden="true"></i>
                 </Link>
                 <h2>
-                  <Link href="/portfolio">Digital Marketing</Link>
+                  <Link href="/portfolio">Animation Production</Link>
                 </h2>
               </div>
             </div>
@@ -170,7 +170,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right" aria-hidden="true"></i>
                 </Link>
                 <h2>
-                  <Link href="/portfolio">Digital Marketing</Link>
+                  <Link href="/portfolio">Animation Production</Link>
                 </h2>
               </div>
             </div>
@@ -191,7 +191,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right" aria-hidden="true"></i>
                 </Link>
                 <h2>
-                  <Link href="/portfolio">Digital Marketing</Link>
+                  <Link href="/portfolio">Animation Production</Link>
                 </h2>
               </div>
             </div>
@@ -205,14 +205,14 @@ const PortfolioText = () => {
               onMouseEnter={() => setHover(4)}
             >
               <Link href="/portfolio">
-                <Image src={five} alt="Preview desain Digital Marketing 1" />
+                <Image src={five} alt="Preview desain Animation Production 1" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="/portfolio" className="arr" aria-label="Lihat seluruh proyek">
                   <i className="fa-sharp fa-solid fa-arrow-up-right" aria-hidden="true"></i>
                 </Link>
                 <h2>
-                  <Link href="/portfolio">Digital Marketing</Link>
+                  <Link href="/portfolio">Animation Production</Link>
                 </h2>
               </div>
             </div>
@@ -226,14 +226,14 @@ const PortfolioText = () => {
               onMouseEnter={() => setHover(5)}
             >
               <Link href="/portfolio">
-                <Image src={six} alt="Preview desain Digital Marketing 1" />
+                <Image src={six} alt="Preview desain Animation Production 1" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="/portfolio" className="arr" aria-label="Lihat seluruh proyek">
                   <i className="fa-sharp fa-solid fa-arrow-up-right" aria-hidden="true"></i>
                 </Link>
                 <h2>
-                  <Link href="/portfolio">Digital Marketing</Link>
+                  <Link href="/portfolio">Animation Production</Link>
                 </h2>
               </div>
             </div>
@@ -261,14 +261,14 @@ const PortfolioText = () => {
               onMouseEnter={() => setHover(6)}
             >
               <Link href="/portfolio">
-                <Image src={seven} alt="Preview desain Digital Marketing 1" />
+                <Image src={seven} alt="Preview desain Animation Production 1" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="/portfolio" className="arr" aria-label="Lihat seluruh proyek">
                   <i className="fa-sharp fa-solid fa-arrow-up-right" aria-hidden="true"></i>
                 </Link>
                 <h2>
-                  <Link href="/portfolio">Digital Marketing</Link>
+                  <Link href="/portfolio">Animation Production</Link>
                 </h2>
               </div>
             </div>

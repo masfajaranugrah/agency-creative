@@ -43,9 +43,10 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
                 <p className="primary-text">
-                  We&apos;re an UK-based top-notch design agency committed to
-                  partnering with good companies and hiring the right people for
-                  the right roles.
+                  Dayana Creative is an expert in the fields of Production, Design, and Motion,
+                  specializing particularly in 3D Animation and Visual content creation services. They have 
+                  successfully collborated with well-known companies such as Indosat, Toyota, Intel, 
+                  Wuling Motors, Prudential, Sony Global, Netflix, and many more.
                 </p>
               </div>
             </div>
