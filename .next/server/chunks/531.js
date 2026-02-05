@@ -724,7 +724,7 @@ const Footer = ()=>{
                 }
             });
             const folksGradient = external_chroma_js_default().scale([
-                "#ff7425",
+                "#ffffff",
                 "#ffffff"
             ]);
             animatedChars.forEach((charElement, index)=>{

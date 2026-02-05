@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import dayana from "public/images/dayana.png";
 import avatar from "public/images/testimonial/avatar.png";
 
 const ClientFeedbackMain = () => {
@@ -13,11 +14,11 @@ const ClientFeedbackMain = () => {
                 <div className="quote">
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
-                <p>
-                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
-                  arcu. Aenean non odio porttitor, convallis erat sit amet,
-                  facilisis velit.
-                </p>
+                <Image
+                  src={dayana}
+                  alt="Dayana Studios"
+                  className="testimonial-text-image"
+                />
               </div>
               <hr />
               <div className="author">
@@ -37,11 +38,11 @@ const ClientFeedbackMain = () => {
                 <div className="quote">
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
-                <p>
-                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
-                  arcu. Aenean non odio porttitor, convallis erat sit amet,
-                  facilisis velit.
-                </p>
+                <Image
+                  src={dayana}
+                  alt="Dayana Studios"
+                  className="testimonial-text-image"
+                />
               </div>
               <hr />
               <div className="author">
@@ -61,11 +62,11 @@ const ClientFeedbackMain = () => {
                 <div className="quote">
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
-                <p>
-                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
-                  arcu. Aenean non odio porttitor, convallis erat sit amet,
-                  facilisis velit.
-                </p>
+                <Image
+                  src={dayana}
+                  alt="Dayana Studios"
+                  className="testimonial-text-image"
+                />
               </div>
               <hr />
               <div className="author">
@@ -85,11 +86,11 @@ const ClientFeedbackMain = () => {
                 <div className="quote">
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
-                <p>
-                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
-                  arcu. Aenean non odio porttitor, convallis erat sit amet,
-                  facilisis velit.
-                </p>
+                <Image
+                  src={dayana}
+                  alt="Dayana Studios"
+                  className="testimonial-text-image"
+                />
               </div>
               <hr />
               <div className="author">
@@ -109,11 +110,11 @@ const ClientFeedbackMain = () => {
                 <div className="quote">
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
-                <p>
-                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
-                  arcu. Aenean non odio porttitor, convallis erat sit amet,
-                  facilisis velit.
-                </p>
+                <Image
+                  src={dayana}
+                  alt="Dayana Studios"
+                  className="testimonial-text-image"
+                />
               </div>
               <hr />
               <div className="author">
@@ -133,11 +134,11 @@ const ClientFeedbackMain = () => {
                 <div className="quote">
                   <i className="fa-solid fa-quote-right"></i>
                 </div>
-                <p>
-                  posuere luctus orci. Donec vitae mattis quam, vitae tempor
-                  arcu. Aenean non odio porttitor, convallis erat sit amet,
-                  facilisis velit.
-                </p>
+                <Image
+                  src={dayana}
+                  alt="Dayana Studios"
+                  className="testimonial-text-image"
+                />
               </div>
               <hr />
               <div className="author">

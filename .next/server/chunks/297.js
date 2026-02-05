@@ -3,6 +3,16 @@ exports.id = 297;
 exports.ids = [297];
 exports.modules = {
 
+/***/ 8641:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/dayana.a792a07f.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAIVBMVEX19fXV1dX19fXDw8P4+Pj///////+IiIjV1dVbW1uoqKgfHn+fAAAAC3RSTlMYISM5KwkQRURDWOuk/pAAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAoSURBVHicBcGJAQAgDAKxA/qo+w9sAlN0GMr1jgswyVEjrhIN8mpNfwumAIJ/4IGNAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
+
+/***/ }),
+
 /***/ 5334:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -60,36 +70,6 @@ exports.modules = {
 /* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/two.566b27a5.png","height":65,"width":185,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAMAAACZFr56AAAAJ1BMVEXs+/r//////P9OyGkgN/+OKP8OvZs27GX/G2n///IicLsBiasM6H8NwHbDAAAAC3RSTlMISBN+fIOuwVUqjNk5Zj0AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAiSURBVHicBcGJAQAgCAOxa1HAZ/95SahoMPBzHUni3Y1tBgToAFgPkehBAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":3});
-
-/***/ }),
-
-/***/ 7889:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/s-thumb-three.1e65f7ec.png","height":330,"width":330,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAElBMVEW9vb23t7eXl5eQkJCVlZWcnJy6HpWZAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAI0lEQVR4nGNggANGMEICjKzMLEysLIwMjEzMLExMzKiyqAAABusALps4ASIAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
-
-/***/ }),
-
-/***/ 7493:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/s-thumb-two.1e65f7ec.png","height":330,"width":330,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAElBMVEW9vb23t7eXl5eQkJCVlZWcnJy6HpWZAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAI0lEQVR4nGNggANGMEICjKzMLEysLIwMjEzMLExMzKiyqAAABusALps4ASIAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
-
-/***/ }),
-
-/***/ 5005:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/s-thumb.1e65f7ec.png","height":330,"width":330,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAElBMVEW9vb23t7eXl5eQkJCVlZWcnJy6HpWZAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAI0lEQVR4nGNggANGMEICjKzMLEysLIwMjEzMLExMzKiyqAAABusALps4ASIAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
 
 /***/ }),
 
@@ -361,9 +341,7 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2184);
 /* harmony import */ var swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(9984);
 /* harmony import */ var swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var public_images_testimonial_s_thumb_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(5005);
-/* harmony import */ var public_images_testimonial_s_thumb_two_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(7493);
-/* harmony import */ var public_images_testimonial_s_thumb_three_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(7889);
+/* harmony import */ var public_images_dayana_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8641);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_4__, swiper_modules__WEBPACK_IMPORTED_MODULE_5__]);
 ([swiper_react__WEBPACK_IMPORTED_MODULE_4__, swiper_modules__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -374,20 +352,13 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swip
 
 
 
-
-
 const HomeTestimonial = ()=>{
-    const [nextSlideIndex, setNextSlideIndex] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(1);
-    const handleSlideChange = (swiper)=>{
-        const nextIndex = (swiper.realIndex + 1) % swiper.slides.length;
-        setNextSlideIndex(nextIndex);
-    };
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
         className: "section testimonial pt-0 position-relative",
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "testimonial__text-slider-w",
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(swiper_react__WEBPACK_IMPORTED_MODULE_4__.Swiper, {
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.Swiper, {
                     slidesPerView: "auto",
                     spaceBetween: 40,
                     speed: 5000,
@@ -403,8 +374,9 @@ const HomeTestimonial = ()=>{
                         reverseDirection: false
                     },
                     className: "testimonial__text-slider",
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
+                    children: Array.from({
+                        length: 7
+                    }).map((_, index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "testimonial__text-slider-single",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
@@ -412,7 +384,7 @@ const HomeTestimonial = ()=>{
                                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
                                         href: "client-feedback",
                                         children: [
-                                            "client's testimonial",
+                                            "client's",
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                                 className: "fa-sharp fa-solid fa-arrow-down-right"
                                             })
@@ -420,373 +392,23 @@ const HomeTestimonial = ()=>{
                                     })
                                 })
                             })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "testimonial__text-slider-single",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    className: "h1",
-                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                        href: "client-feedback",
-                                        children: [
-                                            "client's testimonial",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                className: "fa-sharp fa-solid fa-arrow-down-right"
-                                            })
-                                        ]
-                                    })
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "testimonial__text-slider-single",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    className: "h1",
-                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                        href: "client-feedback",
-                                        children: [
-                                            "client's testimonial",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                className: "fa-sharp fa-solid fa-arrow-down-right"
-                                            })
-                                        ]
-                                    })
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "testimonial__text-slider-single",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    className: "h1",
-                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                        href: "client-feedback",
-                                        children: [
-                                            "client's testimonial",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                className: "fa-sharp fa-solid fa-arrow-down-right"
-                                            })
-                                        ]
-                                    })
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "testimonial__text-slider-single",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    className: "h1",
-                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                        href: "client-feedback",
-                                        children: [
-                                            "client's testimonial",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                className: "fa-sharp fa-solid fa-arrow-down-right"
-                                            })
-                                        ]
-                                    })
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "testimonial__text-slider-single",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    className: "h1",
-                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                        href: "client-feedback",
-                                        children: [
-                                            "client's testimonial",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                className: "fa-sharp fa-solid fa-arrow-down-right"
-                                            })
-                                        ]
-                                    })
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "testimonial__text-slider-single",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                    className: "h1",
-                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                        href: "client-feedback",
-                                        children: [
-                                            "client's testimonial",
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                className: "fa-sharp fa-solid fa-arrow-down-right"
-                                            })
-                                        ]
-                                    })
-                                })
-                            })
-                        })
-                    ]
+                        }, index))
                 })
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "container position-relative",
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "row",
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    className: "row",
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "col-12",
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: "col-12 col-xxl-10",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "testimonial-s__slider-w",
-                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(swiper_react__WEBPACK_IMPORTED_MODULE_4__.Swiper, {
-                                    slidesPerView: 1,
-                                    spaceBetween: 30,
-                                    slidesPerGroup: 1,
-                                    speed: 800,
-                                    loop: true,
-                                    roundLengths: false,
-                                    centeredSlides: false,
-                                    centeredSlidesBounds: false,
-                                    modules: [
-                                        swiper_modules__WEBPACK_IMPORTED_MODULE_5__.Autoplay,
-                                        swiper_modules__WEBPACK_IMPORTED_MODULE_5__.Navigation
-                                    ],
-                                    autoplay: {
-                                        delay: 5000,
-                                        disableOnInteraction: false,
-                                        pauseOnMouseEnter: true
-                                    },
-                                    navigation: {
-                                        nextEl: ".next-testimonial-three",
-                                        prevEl: ".prev-testimonial-three"
-                                    },
-                                    onSlideChange: (swiper)=>handleSlideChange(swiper),
-                                    className: "testimonial-s__slider",
-                                    children: [
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "testimonial-s__slider-single",
-                                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                    className: "row gaper align-items-center",
-                                                    children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "col-12 col-lg-4 col-xxl-4",
-                                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                className: "thumb",
-                                                                children: [
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                                                        src: public_images_testimonial_s_thumb_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z,
-                                                                        alt: "Image"
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
-                                                                        xmlns: "http://www.w3.org/2000/svg",
-                                                                        width: "44",
-                                                                        height: "322",
-                                                                        viewBox: "0 0 44 322",
-                                                                        fill: "none",
-                                                                        className: "d-none d-lg-block",
-                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                                                            d: "M43 -0.000976562V151.999L2 192.999H43V321.999",
-                                                                            stroke: "#414141"
-                                                                        })
-                                                                    })
-                                                                ]
-                                                            })
-                                                        }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1",
-                                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                className: "testimonial-s__content",
-                                                                children: [
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                        className: "quote",
-                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                                            className: "fa-solid fa-quote-right"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                        className: "content",
-                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                                            children: "posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean non odio porttitor, convallis erat sit amet, facilisis velit. Nulla ornare convallis malesuada. Phasellus molestie, ipsum ac fringilla."
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                        className: "content-cta",
-                                                                        children: [
-                                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                                                                children: "Daniel Smith"
-                                                                            }),
-                                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                                children: "Senior engineer"
-                                                                            })
-                                                                        ]
-                                                                    })
-                                                                ]
-                                                            })
-                                                        })
-                                                    ]
-                                                })
-                                            })
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "testimonial-s__slider-single",
-                                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                    className: "row gaper align-items-center",
-                                                    children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "col-12 col-lg-4 col-xxl-4",
-                                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                className: "thumb",
-                                                                children: [
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                                                        src: public_images_testimonial_s_thumb_two_png__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z,
-                                                                        alt: "Image"
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
-                                                                        xmlns: "http://www.w3.org/2000/svg",
-                                                                        width: "44",
-                                                                        height: "322",
-                                                                        viewBox: "0 0 44 322",
-                                                                        fill: "none",
-                                                                        className: "d-none d-lg-block",
-                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                                                            d: "M43 -0.000976562V151.999L2 192.999H43V321.999",
-                                                                            stroke: "#414141"
-                                                                        })
-                                                                    })
-                                                                ]
-                                                            })
-                                                        }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1",
-                                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                className: "testimonial-s__content",
-                                                                children: [
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                        className: "quote",
-                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                                            className: "fa-solid fa-quote-right"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                        className: "content",
-                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                                            children: "posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean non odio porttitor, convallis erat sit amet, facilisis velit. Nulla ornare convallis malesuada. Phasellus molestie, ipsum ac fringilla."
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                        className: "content-cta",
-                                                                        children: [
-                                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                                                                children: "Daniel Smith"
-                                                                            }),
-                                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                                children: "Senior engineer"
-                                                                            })
-                                                                        ]
-                                                                    })
-                                                                ]
-                                                            })
-                                                        })
-                                                    ]
-                                                })
-                                            })
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "testimonial-s__slider-single",
-                                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                    className: "row gaper align-items-center",
-                                                    children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "col-12 col-lg-4 col-xxl-4",
-                                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                className: "thumb",
-                                                                children: [
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                                                        src: public_images_testimonial_s_thumb_three_png__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z,
-                                                                        alt: "Image"
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
-                                                                        xmlns: "http://www.w3.org/2000/svg",
-                                                                        width: "44",
-                                                                        height: "322",
-                                                                        viewBox: "0 0 44 322",
-                                                                        fill: "none",
-                                                                        className: "d-none d-lg-block",
-                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
-                                                                            d: "M43 -0.000976562V151.999L2 192.999H43V321.999",
-                                                                            stroke: "#414141"
-                                                                        })
-                                                                    })
-                                                                ]
-                                                            })
-                                                        }),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                            className: "col-12 col-lg-7 offset-lg-1 col-xxl-7 offset-xxl-1",
-                                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                className: "testimonial-s__content",
-                                                                children: [
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                        className: "quote",
-                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                                            className: "fa-solid fa-quote-right"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                                        className: "content",
-                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                                            children: "posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean non odio porttitor, convallis erat sit amet, facilisis velit. Nulla ornare convallis malesuada. Phasellus molestie, ipsum ac fringilla."
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                                        className: "content-cta",
-                                                                        children: [
-                                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                                                                children: "Daniel Smith"
-                                                                            }),
-                                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                                                children: "Senior engineer"
-                                                                            })
-                                                                        ]
-                                                                    })
-                                                                ]
-                                                            })
-                                                        })
-                                                    ]
-                                                })
-                                            })
-                                        })
-                                    ]
-                                })
+                            className: "testimonial-static",
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
+                                src: public_images_dayana_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z,
+                                alt: "Dayana Studios"
                             })
                         })
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "slide-group justify-content-start",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                "aria-label": "previous item",
-                                className: "slide-btn prev-testimonial-three",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                    className: "fa-light fa-angle-left"
-                                })
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                "aria-label": "next item",
-                                className: "slide-btn next-testimonial-three",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                    className: "fa-light fa-angle-right"
-                                })
-                            })
-                        ]
                     })
-                ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "other-section",
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                    className: "other-section-image",
-                    src: nextSlideIndex === 0 ? public_images_testimonial_s_thumb_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z : nextSlideIndex === 1 ? public_images_testimonial_s_thumb_two_png__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z : public_images_testimonial_s_thumb_three_png__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z,
-                    alt: "Next Slide Image"
                 })
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
