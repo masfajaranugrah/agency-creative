@@ -3,16 +3,6 @@ exports.id = 297;
 exports.ids = [297];
 exports.modules = {
 
-/***/ 8641:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/dayana.a792a07f.png","height":1080,"width":1920,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAIVBMVEX19fXV1dX19fXDw8P4+Pj///////+IiIjV1dVbW1uoqKgfHn+fAAAAC3RSTlMYISM5KwkQRURDWOuk/pAAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAoSURBVHicBcGJAQAgDAKxA/qo+w9sAlN0GMr1jgswyVEjrhIN8mpNfwumAIJ/4IGNAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":5});
-
-/***/ }),
-
 /***/ 5334:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -101,12 +91,9 @@ var ScrollTrigger_ = __webpack_require__(4965);
 /* harmony default export */ const thumb_one = ({"src":"/_next/static/media/thumb-one.0da4a825.png","height":706,"width":690,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAclBMVEUeEi8ZBhgUDCdHMnRRIWNxMHMeHicpHT96bcpGKGJKHFAJD0csJk9CI1QiGU1OM4MPHF9uDz4MDzxUK3dgJGYvLTMkFVIAAAVJFECCIFSQSohyG2Ccf9lfasg8UaQaJW6BQ4uEYK2oLG8nO3spByIMDDIE1ZmtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAARklEQVR4nAXBBQKAIAAEsKNbEBC7/f8b3TBIBYCMkFR5wy1BY83FyCco43MQ64xgqrjEs2C7meW0L9D72/VfTtD6KPVM7gdrCAOW3tMIUwAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/images/agency/thumb-two.png
 /* harmony default export */ const thumb_two = ({"src":"/_next/static/media/thumb-two.2830873e.png","height":550,"width":450,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAMAAAAC2hU0AAAAHlBMVEUPDw4eIR4VFhcbGhojJCUrLytBQkM1NDQEBQVeYWQBiqPRAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAL0lEQVR4nAXBgQEAMAjCsIKo8/+Hl/DeXhj6xmwz5TQBlNSylNLCtlowgio4jOQPHC0AtjbFIiQAAAAASUVORK5CYII=","blurWidth":7,"blurHeight":8});
-// EXTERNAL MODULE: ./public/images/star.png
-var star = __webpack_require__(6334);
 // EXTERNAL MODULE: ./public/images/agency/dot-large.png
 var dot_large = __webpack_require__(5984);
 ;// CONCATENATED MODULE: ./src/components/containers/home/Agency.tsx
-
 
 
 
@@ -304,12 +291,6 @@ const Agency = ()=>{
                 })
             }),
             /*#__PURE__*/ jsx_runtime.jsx((image_default()), {
-                src: star/* default */.Z,
-                alt: "Image",
-                className: "star",
-                priority: true
-            }),
-            /*#__PURE__*/ jsx_runtime.jsx((image_default()), {
                 src: dot_large/* default */.Z,
                 alt: "Image",
                 className: "dot-large",
@@ -333,17 +314,15 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(3015);
-/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2184);
-/* harmony import */ var swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(9984);
-/* harmony import */ var swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var public_images_dayana_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8641);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_4__, swiper_modules__WEBPACK_IMPORTED_MODULE_5__]);
-([swiper_react__WEBPACK_IMPORTED_MODULE_4__, swiper_modules__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1664);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3015);
+/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2184);
+/* harmony import */ var swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(9984);
+/* harmony import */ var swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_ui_infinite_slider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6986);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper_modules__WEBPACK_IMPORTED_MODULE_4__, _components_ui_infinite_slider__WEBPACK_IMPORTED_MODULE_6__]);
+([swiper_react__WEBPACK_IMPORTED_MODULE_3__, swiper_modules__WEBPACK_IMPORTED_MODULE_4__, _components_ui_infinite_slider__WEBPACK_IMPORTED_MODULE_6__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
 
 
@@ -351,21 +330,138 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swip
 
 
 
-
+const rowOne = [
+    {
+        src: "/dayana/Asset 144542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 294542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 164542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 154542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 404542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 204542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 364542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 24542212.png",
+        alt: "Client Logo"
+    }
+];
+const rowTwo = [
+    {
+        src: "/dayana/Asset 324542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 494542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 74542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 174542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 234542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 454542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 104542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 124542212.png",
+        alt: "Client Logo"
+    }
+];
+const rowThree = [
+    {
+        src: "/dayana/Asset 484542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 394542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 194542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 304542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 444542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 224542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 264542212.png",
+        alt: "Client Logo"
+    },
+    {
+        src: "/dayana/Asset 424542212.png",
+        alt: "Client Logo"
+    }
+];
+const LogoRow = ({ logos, reverse = false, speed = 15 })=>{
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: "testimonial-logo-marquee__row",
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ui_infinite_slider__WEBPACK_IMPORTED_MODULE_6__/* .InfiniteSlider */ .$, {
+            gap: 48,
+            reverse: reverse,
+            speed: speed,
+            children: logos.map((logo)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                    src: logo.src,
+                    alt: logo.alt,
+                    className: "testimonial-logo-marquee__logo",
+                    loading: "lazy"
+                }, logo.src))
+        })
+    });
+};
 const HomeTestimonial = ()=>{
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
         className: "section testimonial pt-0 position-relative",
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "testimonial__text-slider-w",
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.Swiper, {
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.Swiper, {
                     slidesPerView: "auto",
                     spaceBetween: 40,
                     speed: 5000,
                     loop: true,
                     centeredSlides: true,
                     modules: [
-                        swiper_modules__WEBPACK_IMPORTED_MODULE_5__.Autoplay
+                        swiper_modules__WEBPACK_IMPORTED_MODULE_4__.Autoplay
                     ],
                     autoplay: {
                         delay: 1,
@@ -376,12 +472,12 @@ const HomeTestimonial = ()=>{
                     className: "testimonial__text-slider",
                     children: Array.from({
                         length: 7
-                    }).map((_, index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_4__.SwiperSlide, {
+                    }).map((_, index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_3__.SwiperSlide, {
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "testimonial__text-slider-single",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                     className: "h1",
-                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
+                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                         href: "client-feedback",
                                         children: [
                                             "client's",
@@ -401,12 +497,24 @@ const HomeTestimonial = ()=>{
                     className: "row",
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "col-12",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: "testimonial-static",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                src: public_images_dayana_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z,
-                                alt: "Dayana Studios"
-                            })
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "testimonial-logo-marquee",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(LogoRow, {
+                                    logos: rowOne,
+                                    reverse: true,
+                                    speed: 15
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(LogoRow, {
+                                    logos: rowTwo,
+                                    speed: 15
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(LogoRow, {
+                                    logos: rowThree,
+                                    reverse: true,
+                                    speed: 15
+                                })
+                            ]
                         })
                     })
                 })
@@ -435,6 +543,141 @@ const HomeTestimonial = ()=>{
     });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HomeTestimonial);
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+
+/***/ }),
+
+/***/ 6986:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $: () => (/* binding */ InfiniteSlider)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(119);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6197);
+/* harmony import */ var react_use_measure__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1725);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_lib_utils__WEBPACK_IMPORTED_MODULE_2__, framer_motion__WEBPACK_IMPORTED_MODULE_3__, react_use_measure__WEBPACK_IMPORTED_MODULE_4__]);
+([_lib_utils__WEBPACK_IMPORTED_MODULE_2__, framer_motion__WEBPACK_IMPORTED_MODULE_3__, react_use_measure__WEBPACK_IMPORTED_MODULE_4__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+/* __next_internal_client_entry_do_not_use__ InfiniteSlider auto */ 
+
+
+
+
+function InfiniteSlider({ children, gap = 16, duration = 25, durationOnHover, speed, speedOnHover, direction = "horizontal", reverse = false, className }) {
+    const resolvedDuration = speed ?? duration;
+    const resolvedDurationOnHover = speedOnHover ?? durationOnHover;
+    const [currentDuration, setCurrentDuration] = react__WEBPACK_IMPORTED_MODULE_1__.useState(resolvedDuration);
+    const [ref, { width, height }] = (0,react_use_measure__WEBPACK_IMPORTED_MODULE_4__["default"])();
+    const translation = (0,framer_motion__WEBPACK_IMPORTED_MODULE_3__.useMotionValue)(0);
+    const [isTransitioning, setIsTransitioning] = react__WEBPACK_IMPORTED_MODULE_1__.useState(false);
+    const [key, setKey] = react__WEBPACK_IMPORTED_MODULE_1__.useState(0);
+    react__WEBPACK_IMPORTED_MODULE_1__.useEffect(()=>{
+        let controls;
+        const size = direction === "horizontal" ? width : height;
+        // The measured size includes two copies of the children.
+        // Move by half the size to loop seamlessly.
+        const contentSize = size / 2 + gap;
+        const from = reverse ? -contentSize / 2 : 0;
+        const to = reverse ? 0 : -contentSize / 2;
+        if (isTransitioning) {
+            controls = (0,framer_motion__WEBPACK_IMPORTED_MODULE_3__.animate)(translation, [
+                translation.get(),
+                to
+            ], {
+                ease: "linear",
+                duration: currentDuration * Math.abs((translation.get() - to) / contentSize),
+                onComplete: ()=>{
+                    setIsTransitioning(false);
+                    setKey((prevKey)=>prevKey + 1);
+                }
+            });
+        } else {
+            controls = (0,framer_motion__WEBPACK_IMPORTED_MODULE_3__.animate)(translation, [
+                from,
+                to
+            ], {
+                ease: "linear",
+                duration: currentDuration,
+                repeat: Infinity,
+                repeatType: "loop",
+                repeatDelay: 0,
+                onRepeat: ()=>{
+                    translation.set(from);
+                }
+            });
+        }
+        return controls?.stop;
+    }, [
+        key,
+        translation,
+        currentDuration,
+        width,
+        height,
+        gap,
+        isTransitioning,
+        direction,
+        reverse
+    ]);
+    const hoverProps = resolvedDurationOnHover ? {
+        onHoverStart: ()=>{
+            setIsTransitioning(true);
+            setCurrentDuration(resolvedDurationOnHover);
+        },
+        onHoverEnd: ()=>{
+            setIsTransitioning(true);
+            setCurrentDuration(resolvedDuration);
+        }
+    } : {};
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("overflow-hidden", className),
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_3__.motion.div, {
+            className: "flex w-max",
+            style: {
+                ...direction === "horizontal" ? {
+                    x: translation
+                } : {
+                    y: translation
+                },
+                gap: `${gap}px`,
+                flexDirection: direction === "horizontal" ? "row" : "column"
+            },
+            ref: ref,
+            ...hoverProps,
+            children: [
+                children,
+                children
+            ]
+        })
+    });
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
+
+/***/ }),
+
+/***/ 119:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   cn: () => (/* binding */ cn)
+/* harmony export */ });
+/* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6593);
+/* harmony import */ var tailwind_merge__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8097);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([clsx__WEBPACK_IMPORTED_MODULE_0__, tailwind_merge__WEBPACK_IMPORTED_MODULE_1__]);
+([clsx__WEBPACK_IMPORTED_MODULE_0__, tailwind_merge__WEBPACK_IMPORTED_MODULE_1__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+
+
+function cn(...inputs) {
+    return (0,tailwind_merge__WEBPACK_IMPORTED_MODULE_1__.twMerge)((0,clsx__WEBPACK_IMPORTED_MODULE_0__.clsx)(inputs));
+}
 
 __webpack_async_result__();
 } catch(e) { __webpack_async_result__(e); } });

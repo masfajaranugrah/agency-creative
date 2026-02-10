@@ -819,6 +819,40 @@
     }
   }
 
+  .testimonial-logo-marquee {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .testimonial-logo-marquee__row {
+    width: 100%;
+  }
+
+  .testimonial-logo-marquee__logo {
+    height: 72px;
+    width: auto;
+    max-width: 220px;
+    object-fit: contain;
+    opacity: 1;
+    filter: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .testimonial-logo-marquee__logo:hover {
+    opacity: 1;
+  }
+
+  @media (max-width: 768px) {
+    .testimonial-logo-marquee {
+      gap: 20px;
+    }
+    .testimonial-logo-marquee__logo {
+      height: 48px;
+      max-width: 170px;
+    }
+  }
+
   .testimonial-s__slider {
     .thumb {
       position: relative;

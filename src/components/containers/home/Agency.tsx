@@ -155,7 +155,6 @@ const Agency = () => {
           </div>
         </div>
       </div>
-      <Image src={star} alt="Image" className="star" priority />
       <Image src={dotlarge} alt="Image" className="dot-large" priority />
     </section>
   );
