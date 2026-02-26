@@ -55,10 +55,8 @@ const WorkStepsProject = () => {
                   <div className="col-12 col-lg-7 col-xxl-5 offset-xxl-2">
                     <div className="text-center text-lg-start">
                       <p>
-                        Bring to the table win-win survival strategies to ensure
-                        proactive domination. At the end of the day, going
-                        forward, a new normal that has evolved from generation
-                        on the runway heading towards
+                        From concept to final frame, our process keeps every project structured, collaborative, and visually consistent.
+
                       </p>
                     </div>
                   </div>
@@ -79,7 +77,7 @@ const WorkStepsProject = () => {
                   25
                   <br />%
                 </span>
-                <h5>Discover & Strategy.</h5>
+                <h5>Concept & Brief.</h5>
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
@@ -100,7 +98,7 @@ const WorkStepsProject = () => {
                   50
                   <br />%
                 </span>
-                <h5>Wireframes & User-flows</h5>
+                <h5>Script & Storyboard</h5>
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
@@ -121,7 +119,8 @@ const WorkStepsProject = () => {
                   75
                   <br />%
                 </span>
-                <h5>Hi-Fidelity design</h5>
+                <h5>Production (Shoot/Animate)
+                </h5>
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{
@@ -142,7 +141,7 @@ const WorkStepsProject = () => {
                   100
                   <br />%
                 </span>
-                <h5>Development Phase</h5>
+                <h5>Post & Delivery</h5>
                 <div
                   className="work-thumb-hover d-none d-md-block"
                   style={{

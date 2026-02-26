@@ -110,19 +110,21 @@
 // responsive styles
 @import "./responsive";
 
-  .gradient-text {
-    font-weight: bold; /* tebal */
-    font-size: 40px;
-    background: linear-gradient(to right, white, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .video-overlay {
-  background: rgba(0, 0, 0, 0.5);  
-  pointer-events: none;           
+.gradient-text {
+  font-weight: bold;
+  /* tebal */
+  font-size: 40px;
+  background: linear-gradient(to right, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
- 
- .transition-navbar {
+
+.video-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+.transition-navbar {
   transition: background-color 0.5s ease, box-shadow 0.5s ease, color 0.5s ease;
 }
 
@@ -136,4 +138,21 @@
   color: #fff !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(6px);
+}
+
+.team-slider-s .swiper-slide-active .team-wrap .social a:hover {
+  color: #000000;
+}
+
+/* Hide Elfsight free widget branding */
+a[href*="elfsight.com"] {
+  display: none !important;
+}
+
+.banner-four .banner-four__title {
+  color: #000 !important;
+}
+
+.eapps-instagram-feed-posts-item {
+  background-color: #000 !important;
 }

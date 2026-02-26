@@ -34,9 +34,8 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
 
   const defaultClasses = "primary-navbar cmn-nav";
 
-  const combinedClasses = `${
-    scrolled ? " navbar-active" : " "
-  } ${defaultClasses}`;
+  const combinedClasses = `${scrolled ? " navbar-active" : " "
+    } ${defaultClasses}`;
 
   let logoSrc = logo;
 
@@ -53,7 +52,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
             <div className="row">
               <div className="col-12">
                 <nav className="navbar p-0">
-                 <div className="navbar__logo">
+                  <div className="navbar__logo">
                     <Link href="/" className="text-decoration-none" aria-label="go to home">
                       <Image
                         src={logoSrc}
@@ -67,115 +66,68 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="navbar__menu">
                     <ul>
-                            <li className="navbar__item navbar__item--has-children nav-fade">
+                      <li className="navbar__item navbar__item--has-children nav-fade">
                         <Link href="/">
-                            <button
-                          aria-label="dropdown menu"
-                          
-                        >
-                          Home
-                        </button>
+                          <button
+                            aria-label="dropdown menu"
+
+                          >
+                            Home
+                          </button>
                         </Link>
-                    
-                      
+
+
                       </li>
-                              <li className="navbar__item navbar__item--has-children nav-fade">
+                      <li className="navbar__item navbar__item--has-children nav-fade">
                         <Link href="about-us">
-                            <button
-                          aria-label="dropdown menu"
-                         
-                        >
-                          About Us
-                        </button>
+                          <button
+                            aria-label="dropdown menu"
+
+                          >
+                            About Us
+                          </button>
                         </Link>
-                    
-                      
+
+
                       </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <Link href="our-services">
-                            <button
-                          aria-label="dropdown menu"
-                         
-                        >
-                          Services
-                        </button>
+                          <button
+                            aria-label="dropdown menu"
+
+                          >
+                            Services
+                          </button>
                         </Link>
-                    
-                      
+
+
                       </li>
-                           <li className="navbar__item navbar__item--has-children nav-fade">
+                      <li className="navbar__item navbar__item--has-children nav-fade">
                         <Link href="our-projects">
-                            <button
-                          aria-label="dropdown menu"
-                         
-                        >
-                          Project
-                        </button>
+                          <button
+                            aria-label="dropdown menu"
+
+                          >
+                            Project
+                          </button>
                         </Link>
-                    
-                      
+
+
                       </li>
-                   
+
                       <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                        >
-                          Pages
-                        </button>
-                        <ul className="navbar__sub-menu">
-                          <li>
-                            <Link href="faq">FAQ</Link>
-                          </li>
-                          <li>
-                            <Link href="404">Error</Link>
-                          </li>
-                          <li>
-                            <Link href="our-story">Our Story</Link>
-                          </li>
-                          <li>
-                            <Link href="portfolio">Portfolio</Link>
-                          </li>
-                          <li className="navbar__item navbar__item--has-children">
-                            <button
-                              aria-label="dropdown menu"
-                              className="navbar__dropdown-label navbar__dropdown-label-sub"
-                            >
-                              Team
-                            </button>
-                            <ul className="navbar__sub-menu navbar__sub-menu__nested">
-                              <li>
-                                <Link href="our-teams">Our Teams</Link>
-                              </li>
-                              <li>
-                                <Link href="team-single">Team Details</Link>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <Link href="client-feedback">Testimonials</Link>
-                          </li>
-                          <li>
-                            <Link href="contact-us">Contact Us</Link>
-                          </li>
-                        </ul>
+                        <Link href="our-story">
+                          <button
+                            aria-label="dropdown menu"
+
+                          >
+                            Dayana
+                          </button>
+                        </Link>
+
+
                       </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                        >
-                          Blog
-                        </button>
-                        <ul className="navbar__sub-menu">
-                          <li>
-                            <Link href="blog">Blog</Link>
-                          </li>
-                          <li>
-                            <Link href="blog-single">Blog Details</Link>
-                          </li>
-                        </ul>
-                      </li>
+
                     </ul>
                   </div>
                   <div className="navbar__options">

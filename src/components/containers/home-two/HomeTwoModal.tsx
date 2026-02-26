@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import modalbg from "public/images/modal-bg.png";
 import frame from "public/images/video-frame-two.png";
-import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
+import cmnImage from "public/images/banner/cmn.png";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeTwoModal = () => {
@@ -55,7 +55,13 @@ const HomeTwoModal = () => {
             className="video-container"
             onClick={(e: any) => e.stopPropagation()}
           >
-            {videoActive && <YoutubeEmbed embedId="fSv6UgCkuTU" />}
+            {videoActive && (
+              <Image
+                src={cmnImage}
+                alt="Popup Image"
+                style={{ width: "100%", height: "auto" }}
+              />
+            )}
             <button
               aria-label="close video popup"
               className="close-video-popup"

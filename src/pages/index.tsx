@@ -12,14 +12,13 @@ import NextPage from "@/components/containers/home/NextPage";
 const Home = () => {
   return (
     <Layout header={1} footer={1} >
-       <HomeOneBanner />
+      <HomeOneBanner />
       <Agency />
       <PortfolioText />
       <HomeOffer />
       <HomeTestimonial />
       <HomeBlog />
-      <HomeSponsor />  
-      <NextPage />  
+      <NextPage />
     </Layout>
   );
 };

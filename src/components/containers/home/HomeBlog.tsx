@@ -1,8 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import one from "public/images/blog/one.png";
-import two from "public/images/blog/two.png";
+import Script from "next/script";
 
 const HomeBlog = () => {
   return (
@@ -12,62 +9,27 @@ const HomeBlog = () => {
           <div className="col-12 col-lg-8">
             <div className="section__header text-center">
               <span className="sub-title">
-                news & Blog
+                Instagram Feed
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">what&apos;s new in blog</h2>
+              <h2 className="title title-anim">follow our instagram</h2>
             </div>
           </div>
         </div>
-        <div className="row gaper">
-          <div className="col-12 col-md-6">
-            <div className="blog__single fade-top">
-              <div className="blog__single-thumb topy-tilt">
-                <Link href="blog-single">
-                  <Image src={one} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h3>
-                  <Link href="blog-single">
-                    A Simple Social Media Marketing Checklist
-                  </Link>
-                </h3>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    creative
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-6">
-            <div className="blog__single fade-top">
-              <div className="blog__single-thumb topy-tilt">
-                <Link href="blog-single">
-                  <Image src={two} alt="Image" />
-                </Link>
-              </div>
-              <div className="blog__single-content">
-                <h3>
-                  <Link href="blog-single">
-                    Transforming Challenges into Opportunities
-                  </Link>
-                </h3>
-                <div className="blog__single-meta">
-                  <Link href="blog" className="sub-title">
-                    creative
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                  <p>MARCH 23, 2023</p>
-                </div>
-              </div>
-            </div>
+        <div className="row">
+          <div className="col-12">
+            {/* Elfsight Instagram Feed */}
+            <div
+              className="elfsight-app-8a19b82d-bbe6-4d33-ba06-c9f90db07110"
+              data-elfsight-app-lazy
+            ></div>
           </div>
         </div>
       </div>
+      <Script
+        src="https://static.elfsight.com/platform/platform.js"
+        strategy="lazyOnload"
+      />
     </section>
   );
 };

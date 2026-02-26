@@ -16,7 +16,6 @@ const AboutUs = () => {
       <Agency />
       <TeamMembers />
       <HomeTestimonial />
-      <AboutSponsor />
       <AboutCta />
     </Layout>
   );

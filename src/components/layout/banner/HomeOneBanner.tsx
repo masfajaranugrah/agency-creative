@@ -60,7 +60,7 @@ const HomeOneBanner = () => {
                 <div className="banner__content-inner">
                   <p>
                     A league of production and post production
-                    specialist in 3D Animation, Video Production,  
+                    specialist in 3D Animation, Video Production,
                     and Visual content agency.
                   </p>
                   <div className="cta section__content-cta">
@@ -92,23 +92,21 @@ const HomeOneBanner = () => {
         <div className="video-overlay position-absolute top-0 start-0 w-100 h-100 z-0"></div>
 
 
-        <Image src={star} alt="Image" className="star z-1"  width={50} height={50} />
+        <Image src={star} alt="Image" className="star z-1" width={50} height={50} />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:info@xpovio.com" className="text-white">mail : hello.dayanacreative@gmail.com</Link>
-          <Link href="tel:99-2158-003-6980" className="text-white">Call : +00 000-0000-0000</Link>
+          <Link href="mailto:hello.dayanacreative@gmail.com" className="text-white">mail : hello.dayanacreative@gmail.com</Link>
+          <Link href="tel:+6282137192219" className="text-white">Call : +6282137192219</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex z-50 text-white">
-          <Link href="https://www.instagram.com/" target="_blank" className="text-white">
+          <Link href="https://www.instagram.com/dayanapictures/" target="_blank" className="text-white">
             instagram
           </Link>
-          <Link href="https://www.pinterest.com/" target="_blank" className="text-white">
+          <Link href="https://www.linkedin.com/company/dayana-studios" target="_blank" className="text-white">
             Linkedin
           </Link>
-          <Link href="https://www.facebook.com/" target="_blank" className="text-white">
-            facebook
-          </Link>
+
         </div>
-        
+
         <div className="lines d-none d-lg-flex">
           <div className="line"></div>
           <div className="line"></div>

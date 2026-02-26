@@ -44,8 +44,8 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
               <div className="text-center text-lg-start">
                 <p className="primary-text">
                   Dayana Creative is an expert in the fields of Production, Design, and Motion,
-                  specializing particularly in 3D Animation and Visual content creation services. They have 
-                  successfully collborated with well-known companies such as Indosat, Toyota, Intel, 
+                  specializing particularly in 3D Animation and Visual content creation services. They have
+                  successfully collborated with well-known companies such as Indosat, Toyota, Intel,
                   Wuling Motors, Prudential, Sony Global, Netflix, and many more.
                 </p>
               </div>
